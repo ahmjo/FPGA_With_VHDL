@@ -1,0 +1,685 @@
+F:/courses/FPGA/FPGA_Project/registers_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none {F:\courses\FPGA\FPGA_Project\registers_cpu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers_cpu
+-- Compiling architecture behavior of registers_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_a_greater_b.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_a_greater_b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_a_greater_b
+-- Compiling architecture Behavioral of MP_a_greater_b
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Mealy_AND_OR_FSM.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Mealy_AND_OR_FSM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mealy_AND_OR_FSM
+-- Compiling architecture Behavioral of Mealy_AND_OR_FSM
+
+} {} {}} F:/courses/FPGA/FPGA_Project/TwoPhaseClock.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/TwoPhaseClock.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TwoPhaseClock
+-- Compiling architecture Behavioral of TwoPhaseClock
+
+} {} {}} F:/courses/FPGA/FPGA_Project/FSM_EO.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/FSM_EO.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_EO
+-- Compiling architecture Behavioral of FSM_EO
+
+} {} {}} F:/courses/FPGA/FPGA_Project/counter_4bit.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/counter_4bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_4bit
+-- Compiling architecture Behavioral of counter_4bit
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Fun_3.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Fun_3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Fun_3
+-- Compiling architecture Behavioral of Fun_3
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Multiplexer_8to1.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Multiplexer_8to1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_8to1
+-- Compiling architecture Behavioral of Multiplexer_8to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Full_Adder_4Bits.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Full_Adder_4Bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Full_Adder_4bit
+-- Compiling architecture FA4 of Full_Adder_4bit
+
+} {} {}} F:/courses/FPGA/FPGA_Project/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity comparator
+-- Compiling architecture Behavioral of comparator
+
+} {} {}} F:/courses/FPGA/FPGA_Project/AND_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/AND_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND_tb
+-- Compiling architecture Behavioral of AND_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/DAC.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/DAC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DAC
+-- Compiling architecture Behavioral of DAC
+
+} {} {}} F:/courses/FPGA/FPGA_Project/NAND_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/NAND_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NAND_GATE
+-- Compiling architecture Gate of NAND_GATE
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Priority_Encoder.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Priority_Encoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Priority_Encoder
+-- Compiling architecture Behavioral of Priority_Encoder
+
+} {} {}} F:/courses/FPGA/FPGA_Project/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Full_Adder.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Full_Adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Full_Adder
+-- Compiling architecture FA of Full_Adder
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_ALU_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_ALU_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MP_ALU_tb
+-- Compiling architecture Behavioral of MP_ALU_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Decoder_tb
+-- Compiling architecture Behavioral of Decoder_tb
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/tb_processor_cpu .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/tb_processor_cpu .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_processor_cpu
+-- Compiling architecture behavioral of tb_processor_cpu
+-- Loading package NUMERIC_STD
+-- Loading entity processor_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/coubter_type_ADC.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/coubter_type_ADC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_type_ADC
+-- Compiling architecture Structural of counter_type_ADC
+
+} {} {}} F:/courses/FPGA/FPGA_Project/BCD_Decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/BCD_Decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD_Decoder
+-- Compiling architecture Behavioral of BCD_Decoder
+
+} {} {}} F:/courses/FPGA/FPGA_Project/D_latch.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/D_latch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity D_latch
+-- Compiling architecture Behavioral of D_latch
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_b_greater_a.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_b_greater_a.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_b_greater_a
+-- Compiling architecture Behavioral of MP_b_greater_a
+
+} {} {}} F:/courses/FPGA/FPGA_Project/priority_routing_net.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/priority_routing_net.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity priority_routing_net
+-- Compiling architecture Behavioral of priority_routing_net
+
+} {} {}} F:/courses/FPGA/FPGA_Project/sign_extend.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/sign_extend.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend
+-- Compiling architecture behavior of sign_extend
+
+} {} {}} F:/courses/FPGA/FPGA_Project/counter_2bit.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/counter_2bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_2bit
+-- Compiling architecture Behavioral of counter_2bit
+
+} {} {}} F:/courses/FPGA/FPGA_Project/test.vhd {0 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/test.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity test
+-- Compiling architecture Behavioral of test
+** Error: F:/courses/FPGA/FPGA_Project/test.vhd(19): (vcom-1441) MATCHING CASE STATEMENT is not defined for this version of the language.
+** Error: F:/courses/FPGA/FPGA_Project/test.vhd(34): VHDL Compiler exiting
+
+} {9.0 11.0} {}} F:/courses/FPGA/FPGA_Project/NOT_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/NOT_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_4to1
+-- Compiling architecture Behavioral of Multiplexer_4to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/OR_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/OR_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR_GATE
+-- Compiling architecture Gate of OR_GATE
+
+} {} {}} F:/courses/FPGA/FPGA_Project/tristate_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/tristate_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristate_buffer
+-- Compiling architecture Behavioral of tristate_buffer
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder_4to16.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder_4to16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_4to16
+-- Compiling architecture behavioral of Decoder_4to16
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder_3to8.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder_3to8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_3to8
+-- Compiling architecture Behavioral of Decoder_3to8
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Multiplexer_6to1.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Multiplexer_6to1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_6to1
+-- Compiling architecture Behavioral of Multiplexer_6to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder_2to4.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder_2to4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_2to4
+-- Compiling architecture behavioral of decoder_2to4
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_Sub.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_Sub.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_Sub
+-- Compiling architecture Behavioral of MP_Sub
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/OR_4_inputs .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/OR_4_inputs .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR_4_inputs
+-- Compiling architecture Behavioral of OR_4_inputs
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_Multi.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_Multi.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_Multi
+-- Compiling architecture Behavioral of MP_Multi
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/OR_6_inputs .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/OR_6_inputs .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR_6_inputs
+-- Compiling architecture Behavioral of OR_6_inputs
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MUX0_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MUX0_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MUX0_cpu
+-- Compiling architecture behavioral of MUX0_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/pc_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/pc_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc_cpu
+-- Compiling architecture behavior of pc_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MUX1_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MUX1_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX1_cpu
+-- Compiling architecture behavioral of MUX1_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/tri_state_bus_top.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/tri_state_bus_top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tri_state_bus_top
+-- Compiling architecture Behavioral of tri_state_bus_top
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Multiplier_4x4_ShiftAdd
+-- Compiling architecture Behavioral of tb_Multiplier_4x4_ShiftAdd
+
+} {} {}} F:/courses/FPGA/FPGA_Project/OR_8_inputs.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/OR_8_inputs.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR_8_inputs
+-- Compiling architecture Behavioral of OR_8_inputs
+
+} {} {}} F:/courses/FPGA/FPGA_Project/periority_encoder_if.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/periority_encoder_if.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Priority_Encoder_if
+-- Compiling architecture Behavioral of Priority_Encoder_if
+
+} {} {}} F:/courses/FPGA/FPGA_Project/processor_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/processor_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity processor_cpu
+-- Compiling architecture Behavioral of processor_cpu
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/AND_3_inputs .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/AND_3_inputs .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND_3_inputs
+-- Compiling architecture Behavioral of AND_3_inputs
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/Multiplexer_2to1 .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/Multiplexer_2to1 .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_2to1
+-- Compiling architecture Behavioral of Multiplexer_2to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_Alu_4bit.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_Alu_4bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_ALU_4bit
+-- Compiling architecture Behavioral of MP_ALU_4bit
+
+} {} {}} F:/courses/FPGA/FPGA_Project/pos_edge_triggered_D_FF.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/pos_edge_triggered_D_FF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pos_edge_triggered_D_FF
+-- Compiling architecture Behavioral of pos_edge_triggered_D_FF
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Priority_Encoder_case_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Priority_Encoder_case_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Priority_Encoder_case_tb
+-- Compiling architecture behavior of Priority_Encoder_case_tb
+-- Loading package NUMERIC_STD
+-- Loading entity Priority_Encoder_case
+
+} {} {}} F:/courses/FPGA/FPGA_Project/even_parity_detector2.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/even_parity_detector2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity even_parity_detector2
+-- Compiling architecture behavioral of even_parity_detector2
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Multiplexer_4to1.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Multiplexer_4to1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_4to1
+-- Compiling architecture Behavioral of Multiplexer_4to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Z_X_Y2_Q.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Z_X_Y2_Q.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Z_X_Y2_Q
+-- Compiling architecture Behavioral of Z_X_Y2_Q
+
+} {} {}} F:/courses/FPGA/FPGA_Project/counter_2bit_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/counter_2bit_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter_2bit_tb
+-- Compiling architecture Behavioral of counter_2bit_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder
+-- Compiling architecture behavioral of Decoder
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/priority_routing_tb .vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/priority_routing_tb .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity priority_routing_tb
+-- Compiling architecture test of priority_routing_tb
+-- Loading entity priority_routing_net
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Tri_State_Bus.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Tri_State_Bus.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Tri_State_Bus
+-- Compiling architecture Behavioral of Tri_State_Bus
+
+} {} {}} F:/courses/FPGA/FPGA_Project/instruction_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/instruction_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instraction_cpu
+-- Compiling architecture behavior of instraction_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/ALU_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/ALU_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_cpu
+-- Compiling architecture behavior of ALU_cpu
+
+} {} {}} {F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd} {0 {vcom -work work -2002 -explicit -stats=none {F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity counter_adc_real
+-- Compiling architecture Behavioral of counter_adc_real
+** Error: F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(24): Nonresolved signal 'dac_voltage' has multiple sources.
+  Drivers:
+    F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(36):Process adc_proc
+       Driven at:
+          F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(43)
+    F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(30):Process dac_proc
+       Driven at:
+          F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(32)
+** Error: F:/courses/FPGA/FPGA_Project/counter_adc_real .vhd(63): VHDL Compiler exiting
+
+} {10.0 11.0 18.0 19.0} {}} F:/courses/FPGA/FPGA_Project/tri_state_bus_tp.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/tri_state_bus_tp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_tri_state_bus_tb
+-- Compiling architecture Behavioral of tb_tri_state_bus_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Z_X_Y_Q_int.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Z_X_Y_Q_int.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Z_X_Y_Q_int
+-- Compiling architecture Behavioral of Z_X_Y_Q_int
+
+} {} {}} F:/courses/FPGA/FPGA_Project/AND_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/AND_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND_GATE
+-- Compiling architecture Gate of AND_GATE
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Fun_3_BCD.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Fun_3_BCD.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Fun_3_BCD
+-- Compiling architecture Behavioral of Fun_3_BCD
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Exam1.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Exam1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Exam1
+-- Compiling architecture Behavioral of Exam1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/priority_encoder_case.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/priority_encoder_case.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Priority_Encoder_case
+-- Compiling architecture Behavioral of Priority_Encoder_case
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Multiplexer_4to1_case.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Multiplexer_4to1_case.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_4to1
+-- Compiling architecture Behavioral of Multiplexer_4to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/counter_type_ADC_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/counter_type_ADC_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_counter_type_ADC
+-- Compiling architecture Behavioral of tb_counter_type_ADC
+-- Loading package NUMERIC_STD
+-- Loading entity counter_type_ADC
+
+} {} {}} F:/courses/FPGA/FPGA_Project/FSM_EO_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/FSM_EO_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_EO_tb
+-- Compiling architecture Behavioral of FSM_EO_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/control_cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/control_cpu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_cpu
+-- Compiling architecture behavior of control_cpu
+
+} {} {}} F:/courses/FPGA/FPGA_Project/XOR_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/XOR_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity XOR_GATE
+-- Compiling architecture Gate2 of XOR_GATE
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Z_X_Y_Q.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Z_X_Y_Q.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Z_X_Y_Q
+-- Compiling architecture Behavioral of Z_X_Y_Q
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Multiplexer_4to1_case_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Multiplexer_4to1_case_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer_4to1_case_tb
+-- Compiling architecture behavior of Multiplexer_4to1_case_tb
+-- Loading entity Multiplexer_4to1
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Decoder_2to4_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Decoder_2to4_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decoder_2to4_tb
+-- Compiling architecture Behavioral of Decoder_2to4_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/MP_Adder.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/MP_Adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MP_Adder
+-- Compiling architecture Behavioral of MP_Adder
+
+} {} {}} F:/courses/FPGA/FPGA_Project/Mealy_AND_OR_FSM_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/Mealy_AND_OR_FSM_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mealy_AND_OR_FSM_tb
+-- Compiling architecture behavior of Mealy_AND_OR_FSM_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/TwoPhaseClock_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/TwoPhaseClock_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TwoPhaseClock_tb
+-- Compiling architecture Behavioral of TwoPhaseClock_tb
+
+} {} {}} F:/courses/FPGA/FPGA_Project/BCD_to_7seg_CA_int.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/courses/FPGA/FPGA_Project/BCD_to_7seg_CA_int.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCD_to_7seg_CA_int
+-- Compiling architecture Behavioral of BCD_to_7seg_CA_int
+
+} {} {}}

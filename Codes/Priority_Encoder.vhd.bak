@@ -1,0 +1,21 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity Priority_Encoder is
+    port (
+        D : in  std_logic_vector(3 downto 0);
+        Y : out std_logic_vector(1 downto 0);
+        V : out std_logic
+    );
+end entity Priority_Encoder;
+
+architecture Behavioral of Priority_Encoder is
+begin
+    Y <= "11" when D(3) = '1' else
+         "10" when D(2) = '1' else
+         "01" when D(1) = '1' else
+         "00";
+    
+    V <= '1' when D /= "0000" else
+         '0';
+end architecture Behavioral;

@@ -1,0 +1,85 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Z_X_Y2_Q is
+    Port (
+        X       : in  STD_LOGIC_VECTOR(1 downto 0);
+        Y2      : in  STD_LOGIC;
+        Z       : out STD_LOGIC_VECTOR(2 downto 0)
+    );
+end Z_X_Y2_Q;
+
+architecture Behavioral of Z_X_Y2_Q is
+
+    component Decoder_3to8 is
+        Port (
+            A : in  STD_LOGIC_VECTOR(2 downto 0);
+            Y : out STD_LOGIC_VECTOR(7 downto 0)
+        );
+    end component;
+
+    component OR_4_inputs is
+        Port (
+            A, B, C, D : in  STD_LOGIC;
+            Y          : out STD_LOGIC
+        );
+    end component;
+
+    component AND_3_inputs is
+        Port (
+            A, B, C : in  STD_LOGIC;
+            Y       : out STD_LOGIC
+        );
+    end component;
+
+    component Multiplexer_4to1 is
+   	 Port (
+	    selector : in  STD_LOGIC_VECTOR (1 downto 0);
+            a, b, c, d : in STD_LOGIC;
+            Y : out STD_LOGIC
+         );
+end component;
+
+
+    signal decoder_input  : STD_LOGIC_VECTOR(2 downto 0);
+    signal decoder_output : STD_LOGIC_VECTOR(7 downto 0);
+    signal mux_selector   : STD_LOGIC_VECTOR(1 downto 0);
+    signal not_x0         : STD_LOGIC;
+
+begin
+
+    decoder_input <= X(0) & X(1) & Y2;
+    mux_selector <= Y2 & X(1);
+    not_x0 <= not X(0);
+
+    DECODER_INST: Decoder_3to8 port map (
+        A => decoder_input,
+        Y => decoder_output
+    );
+
+    OR_Z1: OR_4_inputs port map (
+        A => decoder_output(2),
+        B => decoder_output(3),
+        C => decoder_output(5),
+        D => decoder_output(6),
+        Y => Z(1)
+    );
+
+    AND_Z2: AND_3_inputs port map (
+        A => X(0),
+        B => X(1),
+        C => Y2,
+        Y => Z(2)
+    );
+
+    MUX_Z0: Multiplexer_4to1 port map (
+        selector => mux_selector,
+        a => X(0),
+        b => X(0),
+        c => not_x0,
+        d => not_x0,
+        Y => Z(0)
+    );
+
+end Behavioral;
+

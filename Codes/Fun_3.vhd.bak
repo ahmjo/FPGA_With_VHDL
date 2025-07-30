@@ -1,0 +1,77 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity sum_square_display is
+    port (
+        a, b   : in  std_logic_vector(1 downto 0);
+        seg_l  : out std_logic_vector(6 downto 0);
+        seg_h  : out std_logic_vector(6 downto 0);
+        digit_l : out integer range 0 to 9;
+        digit_h : out integer range 0 to 9
+    );
+end entity;
+
+architecture Behavioral of sum_square_display is
+
+    signal a_unsigned, b_unsigned : unsigned(1 downto 0);
+    signal b_square               : unsigned(3 downto 0);
+    signal result                 : unsigned(5 downto 0);
+    signal bcd_digits             : std_logic_vector(7 downto 0);
+    signal low_digit, high_digit  : std_logic_vector(3 downto 0);
+    signal int_low, int_high      : integer range 0 to 9;
+
+    component BCD_Decoder
+        Port (
+            BCD  : in  std_logic_vector(3 downto 0);
+            Segments : out std_logic_vector(6 downto 0)
+        );
+    end component;
+
+    component bcd_decoder_integer
+        port (
+            data_in  : in std_logic_vector(3 downto 0);
+            int_out  : out integer range 0 to 9
+        );
+    end component;
+
+begin
+
+    a_unsigned <= unsigned(a);
+    b_unsigned <= unsigned(b);
+    b_square   <= b_unsigned * b_unsigned;
+    result     <= resize(a_unsigned, 6) + resize(b_square, 6);
+
+    process(result)
+        variable res_val       : unsigned(5 downto 0);
+        variable shifted_val   : unsigned(5 downto 0);
+        variable temp_vector   : std_logic_vector(5 downto 0);
+        variable partial_sum   : std_logic_vector(3 downto 0);
+        variable bcd_temp      : std_logic_vector(7 downto 0);
+    begin
+        res_val := result;
+        if res_val > 9 then
+            shifted_val := res_val + 6;
+            temp_vector := std_logic_vector(shifted_val);
+            partial_sum := temp_vector(3 downto 0);
+            bcd_temp := "0001" & partial_sum;
+        else
+            temp_vector := std_logic_vector(res_val);
+            partial_sum := temp_vector(3 downto 0);
+            bcd_temp := "0000" & partial_sum;
+        end if;
+        bcd_digits <= bcd_temp;
+        high_digit <= bcd_temp(7 downto 4);
+        low_digit  <= bcd_temp(3 downto 0);
+    end process;
+
+    decode_low : bcd_decoder_integer port map (data_in => low_digit, int_out => int_low);
+    decode_high: bcd_decoder_integer port map (data_in => high_digit, int_out => int_high);
+
+    digit_l <= int_low;
+    digit_h <= int_high;
+
+    seg_low_disp : bcd_decoder_7seg port map (data_in => low_digit, seg_out => seg_l);
+    seg_high_disp: bcd_decoder_7seg port map (data_in => high_digit, seg_out => seg_h);
+
+end architecture;

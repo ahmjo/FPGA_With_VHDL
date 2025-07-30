@@ -1,0 +1,19 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity Decoder is
+	port (
+		dec_input  : in std_logic_vector (2 downto 0);
+		dec_output : out std_logic
+	    );
+end entity Decoder;
+
+architecture behavioral of Decoder is
+
+	constant five : std_logic_vector := "101";
+
+begin
+	dec_output <= '1' when dec_input = five else '0';
+
+end architecture behavioral;
+

@@ -1,0 +1,18 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity XOR_GATE is
+
+port(A,B: std_logic;
+
+	Z:out std_logic);
+
+end entity
+
+
+architecture Gate2 of XOR_GATE is
+
+begin
+Z <= A xor B;
+
+end architecture

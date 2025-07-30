@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity BCD_to_7Segment is
+    Port (
+        BCD  : in  std_logic_vector(3 downto 0);
+        Segments : out std_logic_vector(6 downto 0)
+    );
+end BCD_to_7Segment;
+
+architecture Behavioral of BCD_to_7Segment is
+begin
+    process(BCD)
+    begin
+        case BCD is
+            when "0000" => Segments <= "0000001";
+            when "0001" => Segments <= "1001111";
+            when "0010" => Segments <= "0010010";
+            when "0011" => Segments <= "0000110";
+            when "0100" => Segments <= "1001100";
+            when "0101" => Segments <= "0100100";
+            when "0110" => Segments <= "0100000";
+            when "0111" => Segments <= "0001111";
+            when "1000" => Segments <= "0000000";
+            when "1001" => Segments <= "0000100";
+            when others => Segments <= "1111111";
+        end case;
+    end process;
+end Behavioral;
+
